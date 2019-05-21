@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     public float bullet_speed = 10.0f;
     public GameObject bullet_dir;
     private Vector3 direction;
-    public float bullet_lifetime = 7.0f;
+    public float bullet_lifetime = 4.0f;
     private float bullet_time = 0.0f;
 
     // Start is called before the first frame update
