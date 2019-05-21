@@ -23,9 +23,32 @@ public class Bullet : MonoBehaviour
     {
         gameObject.transform.Translate(direction * bullet_speed * Time.deltaTime, Space.World);
         bullet_time += Time.deltaTime;
-        if(bullet_time > bullet_lifetime)
+        if (bullet_time > bullet_lifetime)
         {
             Destroy(gameObject);
+        }
+    }
+
+    public void ReverseDirection()
+    {
+        direction = -direction;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.layer == 10)
+        {
+            Debug.Log("Ship_o collide");
+        }
+
+        else if (other.gameObject.layer == 11)
+        {
+            Debug.Log("Ship_b collide");
+        }
+
+        else if (other.gameObject.layer == 9)
+        {
+            Debug.Log("Shield collide");
         }
     }
 }
