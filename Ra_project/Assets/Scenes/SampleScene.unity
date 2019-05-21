@@ -13209,6 +13209,21 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1259225280}
+    - target: {fileID: 4819934275507032883, guid: 57875d1bb7f813a49b629f4b9110fafa,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 142012, guid: 5534fe87bdddbbb44ab4dd43c16c1a1e, type: 3}
+    - target: {fileID: 4819934275507032883, guid: 57875d1bb7f813a49b629f4b9110fafa,
+        type: 3}
+      propertyPath: explosion_o
+      value: 
+      objectReference: {fileID: 142012, guid: 5534fe87bdddbbb44ab4dd43c16c1a1e, type: 3}
+    - target: {fileID: 4819934275507032883, guid: 57875d1bb7f813a49b629f4b9110fafa,
+        type: 3}
+      propertyPath: explosion_b
+      value: 
+      objectReference: {fileID: 142012, guid: 3d006046374074849ad36f3388c9269b, type: 3}
     - target: {fileID: 8580078294621201475, guid: 57875d1bb7f813a49b629f4b9110fafa,
         type: 3}
       propertyPath: m_IsTrigger
@@ -15167,6 +15182,16 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1259225280}
+    - target: {fileID: 4819934275507032883, guid: e6979c07c280ec24fad118c5273d9af6,
+        type: 3}
+      propertyPath: explosion_b
+      value: 
+      objectReference: {fileID: 142012, guid: 3d006046374074849ad36f3388c9269b, type: 3}
+    - target: {fileID: 4819934275507032883, guid: e6979c07c280ec24fad118c5273d9af6,
+        type: 3}
+      propertyPath: explosion_o
+      value: 
+      objectReference: {fileID: 142012, guid: 5534fe87bdddbbb44ab4dd43c16c1a1e, type: 3}
     - target: {fileID: 8580078294621201475, guid: e6979c07c280ec24fad118c5273d9af6,
         type: 3}
       propertyPath: m_IsTrigger
